@@ -1,0 +1,6 @@
+// setText={this.setText}
+
+// setText={(text) => this.setState({ text })}
+// let filteredArticles = parsedData.articles.filter(articles =>
+//     articles.title && articles.title.toLowerCase().includes(this.props.text.toLowerCase())
+//   );

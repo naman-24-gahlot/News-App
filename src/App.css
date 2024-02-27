@@ -1,6 +1,37 @@
+
+
 .App {
   text-align: center;
 }
+
+/* Navbar.css */
+
+/* Navbar.css */
+.Navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.content {
+  margin-top: 60px; /* Adjust the value to match the height of your navbar */
+}
+
+
+.Navbar.hidden {
+  top: -100px; /* Adjust the value to hide the navbar completely */
+}
+
+.Navbar.visible {
+  top: 0;
+}
+
+
 
 .App-logo {
   height: 40vmin;
